@@ -161,6 +161,9 @@ enum Transmogrifier {
 }
 
 let binaryPath = CommandLine.arguments[1]
+print("\(binaryPath)")
 let minos = UInt32(CommandLine.arguments[2]) ?? 13
+print("\(minos)")
 let sdk = UInt32(CommandLine.arguments[3]) ?? 13
+print("\(minos)")
 Transmogrifier.processBinary(atPath: binaryPath, minos: minos, sdk: sdk)
