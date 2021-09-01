@@ -162,4 +162,4 @@ enum Transmogrifier {
 
 let binaryPath = CommandLine.arguments[1]
 print("\(binaryPath)")
-Transmogrifier.processBinary(atPath: binaryPath, minos: minos, sdk: sdk)
+Transmogrifier.processBinary(atPath: binaryPath)
